@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Rubik+Iso&display=swap');
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(183, 158, 207);
+}
+.wrapper{
+    display: flex;
+    width: 450px;
+    background-color: burlywood;
+    padding: 70px 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0px 20px 25px rgb(0, 0, 0,0.25);
+    justify-content: space-between;
+    border-radius: 8px ;
+   
+}
+.container{
+    
+    width: 45%;
+    
+}
+input{
+    width:100% ;
+    height:50px ;
+    border-radius:5px ;
+    border: 2px solid red ;
+    outline: none;
+    margin-top:8px ;
+    padding: 0 20px;
+}
+input:focus{
+   border-color: aquamarine;
+}
+
+.container label{
+    text-decoration: solid;
+    cursor: pointer;
+    transition: 4ms 2sec;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Rubik+Iso&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <label for="Celcius">CELSIUS</label>
+            <input 
+            onchange ="computeTemp(event)"
+            type="number" 
+            name="Celcius" 
+            id="Celcius" 
+            class="Celcius" 
+            placeholder=" Celcius"/>    
+        </div>
+
+        <div class="container">
+            <label for="Celcius">FAHRENHEIT</label>
+            <input 
+            onchange="computeTemp(event)"
+            type="number" 
+            name="Fahrenheit" 
+            id="Fahrenheit" 
+            class="Fahrenheit" 
+            placeholder=" Fahrenheit"/> 
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
